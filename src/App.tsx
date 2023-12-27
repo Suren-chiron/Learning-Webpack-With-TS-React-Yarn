@@ -11,6 +11,7 @@ type Props = {
 
 const App: React.FC<Props> = ({ name, age, isStudent }) => {
   var test = 'mohammad';
+  console.log(test);
 
   return (
     <>
