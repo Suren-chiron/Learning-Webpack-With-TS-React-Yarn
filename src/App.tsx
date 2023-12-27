@@ -14,7 +14,7 @@ const App: React.FC<Props> = ({ name, age, isStudent }) => {
     <>
       <div>
         <p>
-          my name is {name}, i'm {age} years old and i'm {isStudent ? 'student' : 'engineer'}
+          my name is {name}, i'm years old and i'm {isStudent ? 'student' : 'engineer'}
         </p>
         <h2>
           Template is - {process.env.NODE_ENV} {process.env.name}
