@@ -1,15 +1,17 @@
 module.exports = {
    root: true,
    env: { browser: true, es2020: true },
-   extends: [
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'plugin:react-hooks/recommended',
-      'prettier',
-   ],
    ignorePatterns: ['node_modules', '.eslintrc.cjs'],
    parser: '@typescript-eslint/parser',
-   plugins: ['prettier'],
+   plugins: ['prettier', '@typescript-eslint'],
+   extends: [
+      'eslint:recommended',
+      'prettier',
+      'plugin:prettier/recommended',
+      'plugin:react/recommended',
+      'plugin:react-hooks/recommended',
+      'plugin:@typescript-eslint/recommended',
+   ],
    rules: {
       'no-redeclare': 'off',
       'no-unused-vars': 'off',
@@ -19,9 +21,10 @@ module.exports = {
       'prettier/prettier': 'error',
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/semi': 'error',
       /// bullshit
       'no-undef': 'off',
       '@typescript-eslint/no-var-requires': 'off',
+      'react-hooks/rules-of-hooks': 'off',
+      'react/no-unescaped-entities': 0,
    },
 };

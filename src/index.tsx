@@ -5,8 +5,8 @@ import './index.css';
 
 const domRoot = document.getElementById('root')!;
 render(
-   <React.StrictMode>
-      <App name={'mohammad'} age={17} isStudent={true} />
-   </React.StrictMode>,
-   domRoot,
+  <React.StrictMode>
+    <App name={'mohammad'} age={17} isStudent={true} />
+  </React.StrictMode>,
+  domRoot,
 );

@@ -1,18 +1,18 @@
 body {
-   margin: 10px;
+  margin: 10px;
 }
 p {
-   color: orange;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: 500;
-   margin-bottom: 10px;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 img {
-   border-radius: 10px;
-   opacity: 0.9;
+  border-radius: 10px;
+  opacity: 0.9;
 }
 img:hover {
-   opacity: 1;
-   transition: 2s;
+  opacity: 1;
+  transition: 2s;
 }
