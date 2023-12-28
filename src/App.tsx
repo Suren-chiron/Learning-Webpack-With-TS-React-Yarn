@@ -10,7 +10,7 @@ type Props = {
 };
 
 const App: React.FC<Props> = ({ name, age, isStudent }) => {
-  let test = 'mohammad3';
+  let test = 'mohammad';
   console.log(test);
 
   return (
