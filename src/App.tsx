@@ -13,11 +13,6 @@ const App: React.FC<Props> = ({ name, age, isStudent }) => {
   let test = 'mohammad3';
   console.log(test);
 
-  //   "lint-staged": {
-  //   "src/**/*.{js,jsx,ts,tsx,json}": "eslint --fix",
-  //   "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
-  // },
-
   return (
     <>
       <div>
